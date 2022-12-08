@@ -15,6 +15,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 .izquierdo{
     background-color: rgb(158, 240, 220,46%);

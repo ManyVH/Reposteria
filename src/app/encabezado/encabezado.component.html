@@ -1,10 +1,16 @@
-<header class="container  cabeza">
-    <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-6">
-            <p>Hola</p>
-        </div>
-        <div class="col-6">
-            <p>Holas</p>
-        </div>
+<header class="cabeza">
+    <div class="user">
+        <img class="m-1" src="./assets/img/hombre.png" width="30" height="30">
+        <h3 class="m-1">Jose Manuel</h3>
+    </div>
+
+    <img src="" class="logo">
+    <div *ngIf="valor" class="w-35 d-flex justify-content-end">
+        <li class="menu">
+            <a routerLink="/"><img src="./assets/img/hombre.png" width="30" height="30"></a>
+            <a routerLink="" >Tickets</a>
+            <a href="">Reportes</a>
+            <a href="">Usuarios</a>
+        </li>
     </div>
 </header>
